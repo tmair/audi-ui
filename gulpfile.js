@@ -70,7 +70,6 @@ const webpackConfig = {
     ]
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({ minimize: true }),
     new webpack.BannerPlugin(banner, { raw: true })
   ]
 };

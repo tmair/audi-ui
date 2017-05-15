@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git://github.com/audi/audi-ui.git"
   },
+  "scripts": {
+    "build": "gulp"
+  },
   "main": "dist/audi-ui.min.js",
   "devDependencies": {
     "audi-icon": "git+https://github.com/audi/audi-icon.git",
@@ -53,7 +56,6 @@
     "webpack": "1.12.9",
     "webpack-stream": "^3.2.0"
   },
-  "scripts": {},
   "engines": {
     "node": "^6.0.0"
   }
